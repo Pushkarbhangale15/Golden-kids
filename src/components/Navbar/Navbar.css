@@ -1,8 +1,8 @@
 nav{
     width: 100%;
-    margin: 0;
+  
     box-sizing: border-box;
-    padding: 4px 0 ;
+    padding: 3px 0 ;
     position: fixed;
     top: 0;
     left: 0;
@@ -10,12 +10,13 @@ nav{
     align-items: center;
     justify-content: space-between;
     z-index: 10;
-
+    /* background-color:#FAF3F3; */
 }
 .logo{
-    width: 180px;
+    width: 120px;
 
 }
+
 a{
     text-decoration: none;
     color: inherit;
