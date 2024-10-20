@@ -1,5 +1,6 @@
 import React from 'react'
 import './Hero.css'
+import white_arrow from '../../assets/white-arrow.png'
 
 const Hero = () => {
   return (
@@ -7,8 +8,9 @@ const Hero = () => {
         <div className="hero-text">
             
         <h1>Nurturing Young Minds with Care and Creativity</h1>
-        <p>we believe in fostering a love for learning from the very beginning. Our pre-primary programs are designed to spark curiosity, build confidence, and nurture the unique talents of each child in a joyful and safe environment. Join us as we lay the foundation for a lifetime of discovery and growth.</p>
-        <button className='btn'>Explore More</button>
+        <p>We foster a love for learning from the start. Our pre-primary programs spark curiosity, build confidence, and nurture each child's unique talents in a joyful, safe environment. Join us in laying the foundation for a lifetime of growth and discovery.</p>
+
+        <button className='btn'>Explore More <img src={white_arrow} alt="" /></button>
         </div>
     </div>
   )
