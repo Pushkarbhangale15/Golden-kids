@@ -23,9 +23,17 @@ a{
     line-height: 1;
     cursor: pointer;
 }
+.Tablist{
+    margin-left: 0;
+}
 nav ul li{
     display: inline-block;
     list-style: none;
     margin: 5px 10px;
     font-size: 18px;
+}
+.light-nav{
+        background: #f7f7f7;
+        transition: 0.5s;
+        border-radius: 20px; 
 }
