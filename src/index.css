@@ -23,3 +23,17 @@
   margin-left: 10px;
   
 }
+/* --------media  query-------- */
+@media (max-width:1206px){
+  .container{
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .btn{
+    padding: 14px 15px;
+  }
+  
+}
+@media (max-width:1162px){
+  
+}
