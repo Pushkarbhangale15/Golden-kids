@@ -3,12 +3,19 @@ import './About.css'
 import about_image from '../../assets/about.jpg'
 import play_icon from '../../assets/play-icon.png'
 
-const About = () => {
+const About = ({ setPlayState }) => {
   return (
     <div className="about">
       <div className="about-left">
         <img src={about_image} alt="About Image" className="about-img" />
-        <img src={play_icon} alt="About Image" className="play-icon" />
+        <img
+          src={play_icon}
+          alt="About Image"
+          className="play-icon"
+          onClick={() => {
+            setPlayState(true);
+          }}
+        />
       </div>
       <div className="about-right">
         <h2>About Golden Kids Pre Primary School</h2>
@@ -27,6 +34,6 @@ const About = () => {
       </div>
     </div>
   );
-}
+};
 
 export default About

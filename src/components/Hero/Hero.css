@@ -2,7 +2,7 @@
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(rgba(171, 202, 131, 0.3),rgba(8,0,58,0.5)), url('../../assets/hero.jpeg');
-    background-size: 100%;
+    background-size: cover;
     background-position: center ;
     color: #fff ;
     display: flex;
@@ -31,4 +31,39 @@
     color: #E0F7FA;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 
+}
+/* --------media  query-------- */
+@media (max-width:850px) {
+    
+    .hero-text h1{
+        font-size: 30px;
+    }
+    
+    
+}
+@media (max-width:760px) {
+    
+    .hero-text h1{
+        font-size: 25px;
+    }
+    .hero-text p{
+        font-size: 14px;
+        margin: 15px auto 30px;
+    }
+
+    
+}
+@media (max-width:650px) {
+    
+    .hero-text h1{
+        font-size: 20px;
+        max-width: 400px;
+        margin: auto;
+
+    }
+    .hero-text p{
+        font-size: 12px;
+        margin: 10px auto 25px;
+    }
+    
 }
