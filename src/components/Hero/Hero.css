@@ -1,7 +1,7 @@
 .hero{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(171, 202, 131, 0.3),rgba(8,0,58,0.5)), url('../../assets/hero.jpeg');
+    background: linear-gradient(rgba(171, 202, 131, 0.2),rgba(8,0,58,0.6)), url('../../assets/hero.jpeg');
     background-size: cover;
     background-position: center ;
     color: #fff ;
@@ -11,7 +11,6 @@
     overflow: hidden;      
     box-sizing: border-box;
     background-repeat: no-repeat;
-
 }
 .hero-text{
    text-align: center;
@@ -23,14 +22,11 @@
     color: #F5F5F5;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
     margin-bottom: 15px;
-
-
 }
 .hero-text p{
     font-size: 16px;
     color: #E0F7FA;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
-
 }
 /* --------media  query-------- */
 @media (max-width:850px) {
