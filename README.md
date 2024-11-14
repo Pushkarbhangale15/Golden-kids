@@ -3,7 +3,7 @@ Pre-Primary School Website
 A modern, interactive website designed for a pre-primary school, created to showcase the school’s programs, events, and activities in a user-friendly and visually appealing way.
 Project Overview
 
-This project features a React.js frontend and a Django backend, built with the goal of delivering a responsive and engaging platform for parents, students, and visitors. The site includes sections like a photo gallery, video player, and event listings.
+This project features a React.js frontend, built with the goal of delivering a responsive and engaging platform for parents, students, and visitors. The site includes sections like a photo gallery, video player, and event listings.
 Key Features
 
     Dynamic Gallery: Displays images from school events in a grid layout with an option to view images in a larger lightbox.
