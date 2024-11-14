@@ -1,8 +1,20 @@
-# React + Vite
+Pre-Primary School Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive website designed for a pre-primary school, created to showcase the school’s programs, events, and activities in a user-friendly and visually appealing way.
+Project Overview
 
-Currently, two official plugins are available:
+This project features a React.js frontend and a Django backend, built with the goal of delivering a responsive and engaging platform for parents, students, and visitors. The site includes sections like a photo gallery, video player, and event listings.
+Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    Dynamic Gallery: Displays images from school events in a grid layout with an option to view images in a larger lightbox.
+    Video Player: Embedded video that only plays after clicking the play icon, ensuring a smooth and controlled experience.
+    Navbar and Tabs: Easy navigation through different sections of the site, including information on school programs, events, and contact details.
+    Responsive Design: Accessible on various devices, with a layout that adapts for mobile, tablet, and desktop views.
+
+Tech Stack
+
+    Frontend: React.js, CSS
+    Deployment: GitHub Pages (for frontend)
+Contributing
+
+    Feel free to submit pull requests to suggest improvements, fix bugs, or add features!
